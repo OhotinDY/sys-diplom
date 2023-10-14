@@ -27,3 +27,21 @@ cp terraform /usr/local/bin/
 ```
 terraform -v
 ```
+
+Создаем файл конфигурации 
+
+```
+nano ~/.terraformrc
+```
+
+```
+provider_installation {
+  network_mirror {
+    url = "https://terraform-mirror.yandexcloud.net/"
+    include = ["registry.terraform.io/*/*"]
+  }
+  direct {
+    exclude = ["registry.terraform.io/*/*"]
+  }
+}
+```
