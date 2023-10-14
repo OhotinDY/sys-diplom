@@ -46,3 +46,20 @@ provider_installation {
   }
 }
 ```
+
+В папке, в которой хотим запустить terraform создаем файл *main.tf* с содержимым
+
+```
+terraform {
+  required_providers {
+    yandex = {
+      source = "yandex-cloud/yandex"
+    }
+  }
+  required_version = ">= 0.13"
+}
+
+provider "yandex" {
+  zone = "<зона доступности по умолчанию>"
+}
+```
