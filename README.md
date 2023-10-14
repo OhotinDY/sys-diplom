@@ -63,3 +63,9 @@ provider "yandex" {
   zone = "<зона доступности по умолчанию>"
 }
 ```
+
+Инициализируем terraform в папке root@ody-ubuntu:~/diplom/terraform#
+
+```
+terraform init
+```
