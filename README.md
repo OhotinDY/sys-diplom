@@ -28,10 +28,11 @@ cp terraform /usr/local/bin/
 terraform -v
 ```
 
-Создаем файл конфигурации 
+Создаем файл конфигурации и дадим ему права
 
 ```
 nano ~/.terraformrc
+chmod 644 .terraformrc
 ```
 
 ```
