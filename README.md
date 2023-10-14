@@ -47,7 +47,7 @@ provider_installation {
 }
 ```
 
-В папке, в которой хотим запустить terraform создаем файл !main.tf! с содержимым
+В папке, в которой хотим запустить terraform создаем файл `main.tf` с содержимым
 
 ```
 terraform {
