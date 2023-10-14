@@ -21,3 +21,9 @@ chmod 766 terraform
 ```
 cp terraform /usr/local/bin/
 ```
+
+Проверка работоспособности и версии
+
+```
+terraform -v
+```
