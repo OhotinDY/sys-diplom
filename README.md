@@ -16,4 +16,8 @@ unzip terraform_1.6.1_linux_amd64.zip
 chmod 766 terraform
 ```
 
+Копируем файл terraform в папку запуска
 
+```
+cp terraform /usr/local/bin/
+```
