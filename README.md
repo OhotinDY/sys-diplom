@@ -97,3 +97,8 @@ ssh-authorized-keys:
 - ssh-rsa xxxxxxxxxx ody@home.com
 ```
 
+Создаем ресурсы
+
+```
+terraform apply
+```
