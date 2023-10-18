@@ -78,5 +78,22 @@ terraform init
 
 [Создание файла main.tf](https://github.com/OhotinDY/sys-diplom/blob/main/terraform/main.tf) - описание облака, описание доступа и токена, создание ВМ1, ВМ2
 
-[Создание файла network.tf](https://github.com/OhotinDY/sys-diplom/blob/main/terraform/network.tf)
+[Создание файла network.tf](https://github.com/OhotinDY/sys-diplom/blob/main/terraform/network.tf) - создание внешней и внутренней сети
+
+[Создание файла outputs.tf](https://github.com/OhotinDY/sys-diplom/blob/main/terraform/outputs.tf) - вывод ip-адресов
+
+[Создание файла variables.tf](https://github.com/OhotinDY/sys-diplom/blob/main/terraform/variables.tf) - файл var
+
+Создание файла meta.yml - создание пользователей
+
+```
+#cloud-config
+users:
+- name: user
+groups: sudo
+shell: /bin/bash
+sudo: [‘ALL=(ALL) NOPASSWD:ALL’]
+ssh-authorized-keys:
+- ssh-rsa xxxxxxxxxx ody@home.com
+```
 
