@@ -76,4 +76,7 @@ terraform init
 
 Создаем 2 одинаковые виртуальные машины
 
-[Создание файла](https://github.com/OhotinDY/sys-diplom/blob/main/terraform/main.tf)
+[Создание файла main.tf](https://github.com/OhotinDY/sys-diplom/blob/main/terraform/main.tf) - 
+
+[Создание файла network.tf](https://github.com/OhotinDY/sys-diplom/blob/main/terraform/network.tf)
+
