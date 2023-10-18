@@ -9,7 +9,7 @@ terraform {
 
 # Описание доступа и токена
 provider "yandex" {
-  token     = "y0_AgAAAAAVgmc6AATuwQAAAADlQgazpEKF1v9fQWOZe_brUpNHyPH2VCo"
+  token     = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
   cloud_id  = "b1ggl8k3ceaee7m4b2oe"
   folder_id = "b1goro5b9fvkh8ohdjot"
 }
