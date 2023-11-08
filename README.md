@@ -66,7 +66,7 @@ provider "yandex" {
 }
 ```
 
-Инициализируем terraform в папке root@ody-ubuntu:~/diplom/terraform#
+Инициализируем terraform в папке ~/diplom/terraform#
 
 ```
 terraform init
@@ -79,6 +79,16 @@ terraform init
 [Создание файла main.tf](https://github.com/OhotinDY/sys-diplom/blob/main/terraform/main.tf) - описание облака, описание доступа и токена
 
 [Создание файла hosts-webservers.tf](https://github.com/OhotinDY/sys-diplom/blob/main/terraform/hosts-webservers.tf) - создание VM1 и VM2
+
+Создаем машины для elastic, bastion, kibana, zabbix
+
+[Создание файла host-elasticsearch.tf](https://github.com/OhotinDY/sys-diplom/blob/main/terraform/host-elasticsearch.tf) - создание host-elasticsearch
+
+[Создание файла host-bastion.tf](https://github.com/OhotinDY/sys-diplom/blob/main/terraform/host-bastion.tf) - создание host-bastion
+
+[Создание файла host-kibana.tf](https://github.com/OhotinDY/sys-diplom/blob/main/terraform/host-kibana.tf) - создание host-kibana
+
+[Создание файла host-zabbix.tf](https://github.com/OhotinDY/sys-diplom/blob/main/terraform/host-zabbix.tf) - создание host-zabbix
 
 [Создание файла network.tf](https://github.com/OhotinDY/sys-diplom/blob/main/terraform/network.tf) - создание внешней и внутренней сети
 
