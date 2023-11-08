@@ -1,4 +1,3 @@
-
 # Бастион хост
 resource "yandex_compute_instance" "bastion" {
 
