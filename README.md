@@ -76,13 +76,15 @@ terraform init
 
 Создаем 2 одинаковые виртуальные машины
 
-[Создание файла main.tf](https://github.com/OhotinDY/sys-diplom/blob/main/terraform/main.tf) - описание облака, описание доступа и токена, создание ВМ1, ВМ2
+[Создание файла main.tf](https://github.com/OhotinDY/sys-diplom/blob/main/terraform/main.tf) - описание облака, описание доступа и токена
+
+[Создание файла hosts-webservers.tf](https://github.com/OhotinDY/sys-diplom/blob/main/terraform/hosts-webservers.tf) - создание VM1 и VM2
 
 [Создание файла network.tf](https://github.com/OhotinDY/sys-diplom/blob/main/terraform/network.tf) - создание внешней и внутренней сети
 
 [Создание файла outputs.tf](https://github.com/OhotinDY/sys-diplom/blob/main/terraform/outputs.tf) - вывод ip-адресов
 
-[Создание файла variables.tf](https://github.com/OhotinDY/sys-diplom/blob/main/terraform/variables.tf) - файл var
+[Создание файла snapshot.tf](https://github.com/OhotinDY/sys-diplom/blob/main/terraform/snapshot.tf) - snapshot
 
 Создание файла meta.yml - создание пользователей
 
