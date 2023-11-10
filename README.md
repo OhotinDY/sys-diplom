@@ -78,17 +78,21 @@ terraform init
 
 [Создание файла main.tf](https://github.com/OhotinDY/sys-diplom/blob/main/terraform/main.tf) - описание облака, описание доступа и токена
 
-[Создание файла hosts-webservers.tf](https://github.com/OhotinDY/sys-diplom/blob/main/terraform/hosts-webservers.tf) - создание VM1 и VM2
+[Создание файла webservers.tf](https://github.com/OhotinDY/sys-diplom/blob/main/terraform/webservers.tf) - создание VM1 и VM2
 
 Создаем машины для elastic, bastion, kibana, zabbix
 
-[Создание файла host-elasticsearch.tf](https://github.com/OhotinDY/sys-diplom/blob/main/terraform/host-elasticsearch.tf) - создание host-elasticsearch
+[Создание файла elasticsearch.tf](https://github.com/OhotinDY/sys-diplom/blob/main/terraform/elasticsearch.tf) - создание host-elasticsearch
 
-[Создание файла host-bastion.tf](https://github.com/OhotinDY/sys-diplom/blob/main/terraform/host-bastion.tf) - создание host-bastion
+[Создание файла bastion.tf](https://github.com/OhotinDY/sys-diplom/blob/main/terraform/bastion.tf) - создание host-bastion
 
-[Создание файла host-kibana.tf](https://github.com/OhotinDY/sys-diplom/blob/main/terraform/host-kibana.tf) - создание host-kibana
+[Создание файла kibana.tf](https://github.com/OhotinDY/sys-diplom/blob/main/terraform/kibana.tf) - создание host-kibana
 
-[Создание файла host-zabbix.tf](https://github.com/OhotinDY/sys-diplom/blob/main/terraform/host-zabbix.tf) - создание host-zabbix
+[Создание файла zabbix.tf](https://github.com/OhotinDY/sys-diplom/blob/main/terraform/zabbix.tf) - создание host-zabbix
+
+[Создание файла security_group.tf](https://github.com/OhotinDY/sys-diplom/blob/main/terraform/security_group.tf) - создание группы безопасности
+
+[Создание файла alb.tf](https://github.com/OhotinDY/sys-diplom/blob/main/terraform/alb.tf) - создание таргет и целевой группы 
 
 [Создание файла network.tf](https://github.com/OhotinDY/sys-diplom/blob/main/terraform/network.tf) - создание внешней и внутренней сети
 
@@ -114,3 +118,7 @@ ssh-authorized-keys:
 ```
 terraform apply
 ```
+
+После завершения развертки получаем следующие ip-адреса
+
+![ip]()
