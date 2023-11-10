@@ -121,4 +121,13 @@ terraform apply
 
 После завершения развертки получаем следующие ip-адреса
 
-![ip]()
+![ip](https://github.com/OhotinDY/sys-diplom/blob/main/img/1_ip.png)
+
+Развертка в Yandex Cloud: 
+
+![yc](https://github.com/OhotinDY/sys-diplom/blob/main/img/2_YCmain.png)
+
+![yc](https://github.com/OhotinDY/sys-diplom/blob/main/img/3_YC_VM.png)
+
+![yc](https://github.com/OhotinDY/sys-diplom/blob/main/img/4_YC_gsec.png)
+
