@@ -1,1 +1,36 @@
+#main
+main.tf
+**/main.tf
+terraform/main.tf
 
+#terraform
+.terraform/*
+.terraform/
+
+#terraform служебные
+*terraform.tfstate.backup
+terraform.tfstate.backup
+*.terraform.lock.hcl
+.terraform.lock.hcl
+*terraform.tfstate
+terraform.tfstate
+*terraform.tfstate.backup
+terraform.tfstate.backup
+
+**/ansible.log
+
+**/id_rsa
+**/id_rsa.pub
+
+arhiv
+
+**/check_hostvars.yml
+
+distribute
+
+.vscode/**
+.vscode
+
+.vscode/settings.json
+**/settings.json
+*settings.json
