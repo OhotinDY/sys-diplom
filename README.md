@@ -129,5 +129,5 @@ terraform apply
 
 ![yc](https://github.com/OhotinDY/sys-diplom/blob/main/img/3_YC_VM.png)
 
-![yc](https://github.com/OhotinDY/sys-diplom/blob/main/img/4_YC_gsec.png)
+![yc](https://github.com/OhotinDY/sys-diplom/blob/main/img/4_YC_grsec.png)
 
