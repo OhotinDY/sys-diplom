@@ -2,7 +2,9 @@
 
 ## Дмитрий Охотин SYS-19
 
-Скачиваем terraform из зеркала YandexCloud https://cloud.yandex.ru/docs/tutorials/infrastructure-management/terraform-quickstart#get-credentials
+###Скачиваем terraform 
+
+из зеркала YandexCloud https://cloud.yandex.ru/docs/tutorials/infrastructure-management/terraform-quickstart#get-credentials
 
 ```
 wget https://hashicorp-releases.yandexcloud.net/terraform/1.6.1/terraform_1.6.1_linux_amd64.zip
@@ -132,6 +134,18 @@ terraform apply
 ![yc1](https://github.com/OhotinDY/sys-diplom/blob/main/img/3_YC_VM.png)
 
 ![yc1](https://github.com/OhotinDY/sys-diplom/blob/main/img/4_YC_grsec.png)
+
+###Скачиваем ansible
+
+```
+apt install ansible
+```
+
+Инвенторный файл формируется терраформом и копируется в дерикторию /ansible/hosts.ini
+
+Формируем файл конфигурации в дериктории /ansible/ansible.cfg
+
+
 
 
 
