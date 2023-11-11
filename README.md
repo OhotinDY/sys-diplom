@@ -2,7 +2,7 @@
 
 ## Дмитрий Охотин SYS-19
 
-###Скачиваем terraform 
+### Скачиваем terraform 
 
 из зеркала YandexCloud https://cloud.yandex.ru/docs/tutorials/infrastructure-management/terraform-quickstart#get-credentials
 
@@ -137,7 +137,7 @@ sudo terraform apply
 
 ![yc1](https://github.com/OhotinDY/sys-diplom/blob/main/img/4_YC_grsec.png)
 
-###Скачиваем ansible
+### Скачиваем ansible
 
 ```
 apt install ansible
