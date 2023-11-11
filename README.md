@@ -66,7 +66,7 @@ provider "yandex" {
 }
 ```
 
-Инициализируем terraform в папке ~/diplom/terraform#
+Инициализируем terraform в папке ody@home:~/diplom$
 
 ```
 terraform init
