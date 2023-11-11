@@ -6,4 +6,4 @@ users:
     shell: /bin/bash
     sudo: ['ALL=(ALL) NOPASSWD:ALL']
     ssh_authorized_keys:
-      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDFeepzHjD1YIqKVuU6/oDag6vXuiuGC0GW8LNrINrNBgh7mgImA7uyXpWtfGfjBQ1qTfswEtj4fgfwq
+      - ssh-rsa xxxxxxxxxxxxx= ody@home
