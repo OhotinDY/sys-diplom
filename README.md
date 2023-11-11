@@ -152,7 +152,7 @@ apt install ansible
 
 Скачиваем установочные пакеты elasticsearch, filebeat, kibana из ресурса [Yandex зеркало](https://mirror.yandex.ru/mirrors/elastic/) 
 в папку /distribute и прописываем в /ansible/elk/vars.yml 
-Необходимо взять одну версию, номер версии прописываем в файле /ansible/elk/vars.yml
+Необходимо взять одинаковую версию, номер версии прописываем в файле /ansible/elk/vars.yml
 
 Инвенторный файл формируется терраформом и копируется в дерикторию /ansible/hosts.ini
 
