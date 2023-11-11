@@ -88,7 +88,7 @@ provider "yandex" {
 Инициализируем terraform в папке ody@home:~/diplom$
 
 ```
-terraform init
+sudo terraform init
 ```
 
 ---
@@ -122,7 +122,7 @@ terraform init
 Создаем ресурсы
 
 ```
-terraform apply
+sudo terraform apply
 ```
 
 После завершения развертки получаем следующие ip-адреса
@@ -147,7 +147,43 @@ apt install ansible
 
 Формируем файл конфигурации в дериктории /ansible/ansible.cfg
 
+Прописываем сгенерированный ssh-ключ на хостовую машину: ssh-add ../terraform/keys/id_rsa
 
+Пингуем машины из списка хостов 
 
+```
+ansible all -m ping
+```
 
+![ping](https://github.com/OhotinDY/sys-diplom/blob/main/img/5_ansible_ping.png)
 
+Устанавливаем пакеты на хостовую машину
+
+```
+ansible-playbook playbook1.yml
+```
+
+![playbook1](https://github.com/OhotinDY/sys-diplom/blob/main/img/6_playbook1.png)
+
+Устанавливаем все необходимые пакеты и переносим сайт
+
+![playbook2](https://github.com/OhotinDY/sys-diplom/blob/main/img/7_playbook2.png)
+
+# Результат:
+
+## Доступ к сайту http://158.160.128.43/
+
+## Доступ к Zabbix http://158.160.112.85/
+
+Логин: Admin
+Пароль: zabbix
+
+## Доступ к Elastic http://158.160.122.160:5601
+
+![web1](https://github.com/OhotinDY/sys-diplom/blob/main/img/8_web1.png)
+
+![web2](https://github.com/OhotinDY/sys-diplom/blob/main/img/9_web2.png)
+
+![zabbix](https://github.com/OhotinDY/sys-diplom/blob/main/img/10_zabbix.png)
+
+![elastic](https://github.com/OhotinDY/sys-diplom/blob/main/img/11_elastic.png)
