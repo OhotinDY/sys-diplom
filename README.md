@@ -176,6 +176,7 @@ ansible-playbook playbook1.yml
 ## Доступ к Zabbix http://158.160.112.85/
 
 Логин: Admin
+
 Пароль: zabbix
 
 ## Доступ к Elastic http://158.160.122.160:5601
