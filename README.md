@@ -133,15 +133,26 @@ sudo terraform apply
 
 ![yc1](https://github.com/OhotinDY/sys-diplom/blob/main/img/2_YCmain.png)
 
+- одна сеть bastion-network
+- две подсети bastion-internal-segment и bastion-external-segment
+- Балансировщик alb-lb с роутером web-servers-router, целевой группой tg-web
+- группы безопасности 10 штук
+
 ![yc1](https://github.com/OhotinDY/sys-diplom/blob/main/img/3_YC_VM.png)
 
 ![yc1](https://github.com/OhotinDY/sys-diplom/blob/main/img/4_YC_grsec.png)
+
+Cнимки дисков осуществляются по расписанию (ежедневно в 15.00)
 
 ### Скачиваем ansible
 
 ```
 apt install ansible
 ```
+
+Скачиваем установочные пакеты elasticsearch, filebeat, kibana из ресурса [Yandex зеркало](https://mirror.yandex.ru/mirrors/elastic/) 
+в папку /distribute и прописываем в /ansible/elk/vars.yml 
+Необходимо взять одну версию, номер версии прописываем в файле /ansible/elk/vars.yml
 
 Инвенторный файл формируется терраформом и копируется в дерикторию /ansible/hosts.ini
 
