@@ -62,12 +62,27 @@ terraform {
       source = "yandex-cloud/yandex"
     }
   }
-  required_version = ">= 0.13"
 }
 
+# Описание доступа и токена
 provider "yandex" {
-  zone = "<зона доступности по умолчанию>"
+  token     = "токен"
+  cloud_id  = "облако"
+  folder_id = "папка"
 }
+```
+
+Генерируем ключ командой ssh-keygen и прописываем его в файл /terraform/meta.yaml
+
+```
+#cloud-config
+ users:
+  - name: user
+    groups: sudo
+    shell: /bin/bash
+    sudo: ['ALL=(ALL) NOPASSWD:ALL']
+    ssh-authorized-keys:
+     - ssh-rsa xxxxxxxxxxxxxxxxxxx ody@home
 ```
 
 Инициализируем terraform в папке ody@home:~/diplom$
@@ -103,19 +118,6 @@ terraform init
 [Создание файла outputs.tf](https://github.com/OhotinDY/sys-diplom/blob/main/terraform/outputs.tf) - вывод ip-адресов
 
 [Создание файла snapshot.tf](https://github.com/OhotinDY/sys-diplom/blob/main/terraform/snapshot.tf) - snapshot
-
-Создание файла meta.yml - создание пользователей
-
-```
-#cloud-config
-users:
-- name: user
-groups: sudo
-shell: /bin/bash
-sudo: [‘ALL=(ALL) NOPASSWD:ALL’]
-ssh-authorized-keys:
-- ssh-rsa xxxxxxxxxx ody@home.com
-```
 
 Создаем ресурсы
 
