@@ -2,7 +2,7 @@
 
 ## Дмитрий Охотин SYS-19
 
-## ~[Задание к дипломной работе](https://github.com/netology-code/sys-diplom/tree/diplom-zabbix)~
+## _[Задание к дипломной работе](https://github.com/netology-code/sys-diplom/tree/diplom-zabbix)_
 
 ### Скачиваем terraform 
 
