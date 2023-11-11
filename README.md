@@ -1,5 +1,7 @@
 # Дипломная работа по профессии «Системный администратор»
 
+## Дмитрий Охотин SYS-19
+
 Скачиваем terraform из зеркала YandexCloud https://cloud.yandex.ru/docs/tutorials/infrastructure-management/terraform-quickstart#get-credentials
 
 ```
@@ -130,4 +132,6 @@ terraform apply
 ![yc1](https://github.com/OhotinDY/sys-diplom/blob/main/img/3_YC_VM.png)
 
 ![yc1](https://github.com/OhotinDY/sys-diplom/blob/main/img/4_YC_grsec.png)
+
+
 
