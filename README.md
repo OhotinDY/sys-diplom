@@ -2,6 +2,8 @@
 
 ## Дмитрий Охотин SYS-19
 
+## [Задание к дипломной работе](https://github.com/netology-code/sys-diplom/tree/diplom-zabbix)
+
 ### Скачиваем terraform 
 
 из зеркала YandexCloud https://cloud.yandex.ru/docs/tutorials/infrastructure-management/terraform-quickstart#get-credentials
